@@ -1,0 +1,12 @@
+DELETE FROM addon_account_data WHERE owner = 'steam:110000107067f59';
+DELETE FROM addon_inventory_items WHERE owner = 'steam:110000107067f59';
+DELETE FROM billing WHERE identifier = 'steam:11000011af545fe';
+DELETE FROM characters WHERE identifier = 'steam:110000107067f59';
+DELETE FROM datastore_data WHERE owner = 'steam:11000011af545fe';
+DELETE FROM owned_vehicles WHERE owner = 'steam:1100001183a79ae';  
+DELETE FROM phone_users_contacts WHERE identifier = 'steam:110000107067f59'; 
+DELETE FROM twitter_tweets WHERE realUser = 'steam:110000107067f59';  
+DELETE FROM users WHERE identifier = 'steam:110000107067f59'; 
+DELETE FROM user_accounts WHERE identifier = 'steam:110000107067f59'; 
+DELETE FROM user_inventory WHERE identifier = 'steam:110000107067f59'; 
+DELETE FROM user_licenses WHERE owner = 'steam:110000107067f59';
